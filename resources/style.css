@@ -145,3 +145,48 @@ button {
 }
 
 /* TEAM */
+
+#team {
+    width: 100%;
+    background-image: url("images/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+}
+
+#team h2 {
+    font-size: 2.5rem;
+    background-color: white;
+    padding-left: 50px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.teammate {
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.teammate h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.teammate p {
+    color: white;
+    font-size: 1.25rem;
+}
+
+.teammate img {
+    width: auto;
+    height: 400px;
+}
+
+/* ABOUT */
+
