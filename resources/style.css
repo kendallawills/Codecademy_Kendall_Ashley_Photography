@@ -24,7 +24,7 @@ nav {
 }
 
 nav img {
-    max-width: 300px;
+    width: 300px;
     height: auto;
     margin-left: 20px;
 }
@@ -56,4 +56,23 @@ button {
 }
 
 /* BANNER */
+
+.banner {
+    width: 100%;
+    height: 550px;
+    background-image: url("images/theregisti-HSXIp58yPyI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    color: white;
+    font-family: "Dancing Script";
+    font-size: 5rem;
+    font-weight: 200;
+    position: relative;
+    top: 40px;
+    margin-left: 50px;
+}
 
