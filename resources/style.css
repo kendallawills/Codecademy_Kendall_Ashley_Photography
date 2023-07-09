@@ -76,3 +76,72 @@ button {
     margin-left: 50px;
 }
 
+/* PORTFOLIO */
+
+#portfolio {
+    width: 80%;
+    margin: 50px auto;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+}
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client {
+    width: 350px;
+    min-height: 350px;
+    display: flex;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+#smith {
+    background-image: url("images/smith.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    flex-grow: 4;
+}
+
+#jones {
+    background-image: url("images/jones.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+
+#anderson {
+    background-image: url("images/anderson.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+
+#patterson {
+    background-image: url("images/patterson.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    flex-grow: 4;
+}
+
+.name {
+    width: 100%;
+    text-align: right;
+}
+
+.name h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/* TEAM */
